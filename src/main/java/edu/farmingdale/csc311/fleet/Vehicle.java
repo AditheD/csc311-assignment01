@@ -188,7 +188,7 @@ public abstract class Vehicle implements Honkable {
         }
 
         for (int i = 0; i < times; i++) {
-            honk();
+            System.out.println(hornSound());
         }
     }
 
